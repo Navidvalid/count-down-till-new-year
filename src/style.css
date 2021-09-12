@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.App{
+.App {
   background-image: url('./paul-gilmore-NBogNsO-aT8-unsplash.jpg');
   min-height: 100vh;
   background-size: cover;
@@ -14,17 +14,23 @@
   flex-direction: column;
 }
 
-.title{
+.title {
   color: white;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: normal;
   margin-top: 5rem;
 }
 
-.counter-till-new-year{
+.current-time {
+  color: white;
+  font-size: 3rem;
+  font-weight: normal;
+  margin-top: 15rem;
+}
+
+.counter-till-new-year {
   display: flex;
   text-align: center;
- 
 }
 
 .counter {
@@ -33,7 +39,7 @@
   color: white;
 }
 
-span{
+span {
   text-align: center;
   color: white;
 }
